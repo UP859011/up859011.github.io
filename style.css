@@ -11,6 +11,9 @@ body {
   user-select: none;
   transition: all 1s;
 }
+p {
+  color: white;
+}
 a {
   width: 10%;
   min-width: 30px;

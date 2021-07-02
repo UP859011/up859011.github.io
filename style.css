@@ -13,6 +13,9 @@ body {
 }
 p {
   color: white;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  align-self: center;
 }
 a {
   width: 10%;

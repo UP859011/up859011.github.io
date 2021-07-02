@@ -14,8 +14,7 @@ body {
 p {
   color: white;
   font-family: 'Roboto', sans-serif;
-  width: 100%;
-  align-self: center;
+  text-align: center;
 }
 a {
   width: 10%;

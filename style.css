@@ -1,0 +1,213 @@
+/* -----------------------------NAVIGATION BAR CODE---------------------------*/
+/* Adds a black background color to the top, forming a navigation bar */
+.topNav {
+  background-color: #000;
+  overflow: hidden;
+}
+/* Styles the links inside the navigation bar */
+.topNav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+@media only screen and (max-width: 600px){
+  .topNav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 100%;
+  }
+}
+/* Changes the color of links when I hover over them */
+.topNav a:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* This adds a color to the active webpage */
+.topNav a.active {
+  background-color: #fff;
+  color: #000;
+}
+/* ----------------------------WEBPAGE FOOTER CODE----------------------------*/
+/* Adds a black background color to the bottom, forming a page footer */
+.pageFooter {
+  background-color: #000;
+  overflow: hidden;
+  position: relative; bottom: 0; left: 0; right: 0;
+}
+/* Styles the links inside the page footer */
+/* Provides an inverted colour scheme for text in p tags if needed */
+.pageFooter p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+/* Provides an inverted colour scheme for text in p tags if needed */
+.pageFooter a {
+  color: #fff;
+  float: left;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+}
+@media only screen and (max-width: 600px){
+  .pageFooter a {
+    color: #fff;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+}
+/* Changes the color of links when I hover over them */
+.pageFooter a:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* --------------------------GENERIC FORMATTING CODE--------------------------*/
+body{
+  padding: 0;
+  margin: 0;
+}
+main {
+  font-family: "Courier New", Courier, monospace;
+}
+/* This code is responsible for any paragraphs properties */
+p {
+  font-size: 1rem;
+  max-width: 99%;
+}
+/* I use this for my sources of my lit review as they needed to be italicised.*/
+.source{
+  font-style: italic;
+}
+/* This code is responsible for any list items properties */
+li {
+  font-size: 1rem;
+}
+/* This code is responsible for any headings properties */
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+/* This code is responsible for any sub-headings properties */
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* This affects the kid class of img */
+#kid {
+  float: left;
+  padding: 1em;
+  height: 15rem;
+}
+/* This affects the kid class of video */
+#park {
+  float: right;
+  width: 30%;
+  padding: 1em;
+}
+@media only screen and (max-width: 1000px){
+  #park {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 1em;
+  }
+  #kid {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    height: 5rem;
+  }
+}
+/* Used for images within the discovey log webpage */
+img.dl {
+  padding: 1em;
+  width: 95%;
+  opacity: 1;
+}
+/*This is the background image on the home page. */
+#homebgimg{
+  background-image: url("images/mistymountains.jpg");
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/* This is the first parallax background image. */
+#bgimg1{
+  position: relative;
+  background-image: url("images/alps.jpg");
+  min-height: 100%;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* This is the second parallax background image. */
+#bgimg2{
+  position: relative;
+  background-image: url("images/mountains.jpg");
+  min-height: 100%;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* This is the third parallax background image. */
+#bgimg3{
+  position: relative;
+  background-image: url("images/mistymountains.jpg");
+  min-height: 100%;
+  min-width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* This is responsible for the white background on any text fields of my Site and also the location of text within the site. */
+.text{
+  position: relative;
+  background: #fff;
+  top: 50%;
+  max-width: 70%;
+  margin: auto;
+  padding-top: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 2em;
+  background: rgba(255, 255, 255, 0.85);
+}
+@media only screen and (max-width: 600px){
+  .text{
+    position: relative;
+    background: #fff;
+    top: 50%;
+    max-width: 70%;
+    margin: auto;
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 2em;
+    background: rgba(255, 255, 255, 0.85);
+  }
+}

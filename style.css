@@ -17,6 +17,7 @@ p {
   text-align: center;
 }
 a {
+  text-decoration: none;
   width: 10%;
   min-width: 30px;
   max-width: 100px;

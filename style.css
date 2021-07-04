@@ -48,3 +48,8 @@ a {
   background-color: blue;
   filter: invert(0.5);
 }
+@media screen and (max-width: 600px) {
+  p {
+    visibility: hidden;
+  }
+}

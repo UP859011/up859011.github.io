@@ -1,0 +1,98 @@
+html {
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  background-color: rgba(00, 00, 00, 0.9);
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+#navbar a.active {
+  text-decoration: underline;
+  background-color: red;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Text CSS */
+h1 {
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 6rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+table {
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  #navbar {
+    visibility: hidden;
+  }
+}

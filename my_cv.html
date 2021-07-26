@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta https-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alexander Donovan-Lowe</title>
+        <meta name="theme-color" content="#ffffff">
+        <link href="style2.css" rel="stylesheet">
+        <!--Code responsible for favicons--->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicons/site.webmanifest">
+        <!--Code responsible for font used in button text--->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <!--Code responsible for font used in headers-->
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="assets/Curriculum Vitae.docx" download>Download CV</a>
+            <a href="#hobbies_and_passions">Hobbies & Passions</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+          </div>
+        <div class="header">
+            <h1>ABOUT ME</h1>
+            <p>A little bit about me as a person, as well as a professional summary</p>
+        </div>
+          <div class="content">
+            <a id="hobbies_and_passions"></a>
+            <h2 >
+                Hobbies
+            </h2>
+            <ul>
+                <li>Reading <i>(especially non-fiction)</i></li>
+                <li>Learning new Languages</li>
+                <li>Travelling the World</li>
+                <li>Painting Miniatures</li>
+                <li>Catching the News</li>
+                <li>Watching Movies</li>
+                <li>Making websites</li>
+                <li>Volunteering</li>
+                <li>Protesting</li>
+                <li>Gaming</li>
+            </ul>
+            <h2>
+                Passions
+            </h2>
+            <ul>
+                <li>Connecting with other People</li>
+                <li>Experiencing New Cultures</li>
+                <li>Championing Human RIghts</li>
+                <li>Cooking Novel Dishes</li>
+                <li>Exploring the Earth</li>
+                <li>Helping Others</li>
+            </ul>
+            <a id="skills"></a>
+            <h2>
+                Skills
+            </h2>
+            <ul>
+                <li>Knowledge of several programming languages, and command-line fluency</li>
+                <li>Great capacity to understand new concepts and apply them correctly</li>
+                <li>Personable in nature with years of customer service experience</li>
+                <li>Native English Speaker with written competence in Spanish</li>
+                <li>Focus for solutions not issues</li>
+                <li>Interested in current affairs</li>
+                <li>Flexible problem solver</li>
+                <li>Skilled at researching</li>
+                <li>Self-motivated</li>
+            </ul>
+            <a id="education"></a>
+            <h2>
+                Education
+            </h2>
+            <ul>
+                <li>
+                    <table>
+                        <tr>
+                            <th>Richard Taunton's Sixth Form College</th>
+                            <th><i>09/2015 - 07/2017</i></th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Awarded Distincion*, Distinction*, Distinction in a Level 3 BTEC Extended Diploma in Information Technology.
+                            </td>
+                        </tr>
+                    </table>
+                </li>
+                <li>
+                    <table>
+                        <tr>
+                            <th>University of Gothenburg, Sweden</th>
+                            <th><i>09/2019 - 03/2020</i></th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Continuing Computer Science education with topics such as Operating Systems, Algorithms, Artificial Intelligence, and Computer Security.
+                                Studied here as an international exchange student for one and a half semesters (disrupted by COVID-19).
+
+                            </td>
+                        </tr>
+                    </table>
+                </li>
+                <li>
+                    <table>
+                        <tr>
+                            <th>University of Portsmouth</th>
+                            <th><i>09/2018 - 06/2022</i></th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Studying BSc (with Honours) in Computer Science. Awarded a 3.83 GPA for my academic performance for my first year, allowing me to go to the University of Gothenburg in Sweden to continue my studies for my second year.
+                            </td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+            <a id="experience"></a>
+            <h2>
+                Experience
+            </h2>
+          </div>
+    </body>    
+</html>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>

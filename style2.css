@@ -9,7 +9,6 @@ body {
 }
 
 main {
-  max-width: 1000px;
   text-align: center;
   margin: auto;
 }
@@ -110,5 +109,11 @@ p {
 
   #navbar {
     visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    max-width: 1000px;
   }
 }

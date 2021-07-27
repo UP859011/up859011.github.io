@@ -6,7 +6,12 @@ body {
   margin: 0;
   color: white;
   font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 1000px;
   text-align: center;
+  margin: auto;
 }
 
 .header {
@@ -21,6 +26,7 @@ body {
   justify-content: space-around;
   overflow: hidden;
   background-color: rgba(00, 00, 00, 0.9);
+  text-align: center;
 }
 
 #navbar a {
@@ -39,16 +45,19 @@ body {
 
 .content {
   padding: 16px;
+  text-align: center;
 }
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+  text-align: center;
 }
 
 .sticky + .content {
   padding-top: 60px;
+  text-align: center;
 }
 
 /* Text CSS */
@@ -56,12 +65,14 @@ h1 {
   font-family: 'Zen Tokyo Zoo', cursive;
   font-size: 6rem;
   font-weight: 400;
+  text-align: center;
 }
 
 h2 {
   font-family: 'Zen Tokyo Zoo', cursive;
   font-size: 4.5rem;
   font-weight: 400;
+  text-align: center;
 }
 
 ul {
@@ -74,6 +85,14 @@ table {
 
 p {
   font-size: 1rem;
+}
+
+.leftAlign {
+  text-align: left;
+}
+
+.rightAlign {
+  text-align: right;
 }
 
 @media screen and (max-width: 600px) {

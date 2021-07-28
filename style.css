@@ -16,6 +16,13 @@ p {
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
+.circle_img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 20%;
+}
 a {
   text-decoration: none;
   width: 10%;
@@ -29,7 +36,7 @@ a {
   width: 100%;
 }
 .title {
-  padding: 40px 0 40px 0;
+  padding: 0 0 40px 0;
   width: 75%;
   max-width: 1200px;
 }

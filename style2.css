@@ -11,6 +11,9 @@ body {
 main {
   text-align: center;
   margin: auto;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
 }
 
 .header {
@@ -24,7 +27,7 @@ main {
   display: flex;
   justify-content: space-around;
   overflow: hidden;
-  background-color: rgba(00, 00, 00, 0.9);
+  background-color: rgba(00, 00, 00, 0.85);
   text-align: center;
 }
 
@@ -40,6 +43,10 @@ main {
 
 #navbar a:hover {
   text-decoration: underline;
+}
+
+.active {
+  background-color: rgba(200, 00, 00, 0.85);
 }
 
 .content {

@@ -19,6 +19,7 @@ p {
 }
 .bigheading {
   font-family: 'Monoton';
+  font-size: 100px;
 }
 .circle_img {
   border-radius: 50%;

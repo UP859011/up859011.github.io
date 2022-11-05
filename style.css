@@ -14,8 +14,10 @@ body {
 }
 p {
   color: white;
-  font-family: 'Roboto', sans-serif;
   text-align: center;
+}
+.descriptor {
+  font-family: 'Roboto', sans-serif;
 }
 .bigheading {
   font-family: 'Monoton';

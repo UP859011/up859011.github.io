@@ -63,7 +63,10 @@ a {
   filter: invert(0.5);
 }
 @media screen and (max-width: 600px) {
-  p {
+  .descriptor {
     visibility: hidden;
+  }
+  .bigheading {
+    font-size: 40px
   }
 }

@@ -21,6 +21,9 @@ p {
 .descriptor {
   /*font-family: 'Roboto', sans-serif;*/
 }
+.subheading{
+  font-size: 40px
+}
 .bigheading {
   font-family: 'Monoton';
   font-size: 80px;
@@ -70,5 +73,8 @@ a {
   }
   .bigheading {
     font-size: 40px
+  }
+  .subheading {
+    font-size: 20px
   }
 }

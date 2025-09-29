@@ -1,32 +1,24 @@
 @import url(//fonts.googleapis.com/css?family=Monoton);
 @import url(//fonts.googleapis.com/css?family=Poppins);
+
 html {
   height: 100%;
-  display: table;
-  margin: auto;
 }
 body {
   background-color: black;
-  height: 100%;
-  display: table-cell;
-  vertical-align: middle;
+  min-height: 100%;
+  margin: 0;
   user-select: none;
   transition: all 1s;
 }
-
-/*Variables*/
-$base: 0.6rem;
 
 p {
   color: white;
   text-align: center;
   font-family: 'Poppins';
 }
-.descriptor {
-    
-}
 .subheading{
-  font-size: 30px
+  font-size: 30px;
 }
 .bigheading {
   font-family: 'Monoton';
@@ -67,19 +59,17 @@ a {
 .icon {
   width: 100%;
 }
-.icon:hover + body {
-  background-color: blue;
-  filter: invert(0.5);
-}
+/* Note: the selector '.icon:hover + body' is invalid because 'body' is not a sibling of '.icon'. Browsers ignore this rule. */
+
 @media screen and (max-width: 600px) {
   .descriptor {
     visibility: hidden;
   }
   .bigheading {
-    font-size: 40px
+    font-size: 40px;
   }
   .subheading {
-    font-size: 20px
+    font-size: 20px;
   }
 }
 
@@ -88,13 +78,15 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: auto; /* allow container to size to contents */
+  position: relative; /* position chevrons relative to this container */
+  padding: 1rem 0; /* small top spacing so chevrons are visible */
 }
 
 .chevron {
    position: absolute;
-   width: $base * 3.5;
-   height: $base * 0.8;
+   width: 2.1rem;
+   height: 0.48rem;
    opacity: 0;
    transform: scale(0.3);
    animation: move-chevron 3s ease-out infinite;
@@ -136,14 +128,14 @@ a {
   }
   33.3% {
     opacity: 1;
-    transform: translateY($base * 3.8);
+    transform: translateY(2.28rem);
   }
   66.6% {
     opacity: 1;
-    transform: translateY($base * 5.2);
+    transform: translateY(3.12rem);
   }
   100% {
     opacity: 0;
-    transform: translateY($base * 8) scale(0.5);
+    transform: translateY(4.8rem) scale(0.5);
   }
 }

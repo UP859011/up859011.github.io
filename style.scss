@@ -13,6 +13,10 @@ body {
   user-select: none;
   transition: all 1s;
 }
+
+/*Variables*/
+$base: 0.6rem;
+
 p {
   color: white;
   text-align: center;
@@ -78,7 +82,6 @@ a {
     font-size: 20px
   }
 }
-$base: 0.6rem;
 
 .container {
   display: flex;
